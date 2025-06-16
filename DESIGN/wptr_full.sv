@@ -17,7 +17,9 @@ always @(posedge wclk or negedge wrst_n)begin
 	else {wbin,wptr}<={wbinnext,wgraynext};
 end
 
-assign wbinnext = wbin+(winc&&~wfull);
+
+assign waddr=wbin[ADDRSIZE-1:0];
+assign wbinnext = wbin+(winc&~wfull);
 assign wgraynext = (wbinnext >> 1)^wbinnext;
 
 assign wfull_val = (wgraynext=={~wq2_rptr[ADDRSIZE:ADDRSIZE-1], wq2_rptr[ADDRSIZE-2:0]});

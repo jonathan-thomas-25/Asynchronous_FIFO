@@ -1,4 +1,4 @@
-module syn_w2r #(parameter ADDRSIZE=4) (
+module sync_w2r #(parameter ADDRSIZE=4) (
 
 	input rclk,
 	input rrst_n,
@@ -11,7 +11,7 @@ logic [ADDRSIZE:0] rq1_wptr;
 
 always @(posedge rclk or negedge rrst_n)begin
 
-	if(rrst_n) {rq2_wptr, rq1_wptr}<='0;
+	if(!rrst_n) {rq2_wptr, rq1_wptr}<='0;
 	else {rq2_wptr, rq1_wptr} <= {rq1_wptr, wptr};
 
 end

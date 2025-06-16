@@ -1,8 +1,9 @@
-module fifomem #(parameter DATASIZE=8, ADDRSIZE=4) (
+module fifo_mem #(parameter DATASIZE=8, ADDRSIZE=4) (
 	
 	input [ADDRSIZE-1:0] waddr,
 	input [ADDRSIZE-1:0] raddr,
 	input [DATASIZE-1:0] wdata,
+	output [DATASIZE-1:0] rdata,
 	input wclken, 
 	input wfull, 
 	input wclk

@@ -1,4 +1,4 @@
-module asynchronus_fifo #(parameter ASIZE=4, DSIZE=8) (
+/*module asynchronus_fifo #(parameter ASIZE=4, DSIZE=8) (
 
 	input winc,
 	input wclk,
@@ -11,19 +11,25 @@ module asynchronus_fifo #(parameter ASIZE=4, DSIZE=8) (
 	output wfull,
 	output rempty
 
+);*/
+
+module asynchronous_fifo #(parameter ASIZE=4, DSIZE=8)(
+
+	intf i1  
+
 );
 
 	wire [ASIZE:0] rptr,wq2_rptr,wptr, rq2_wptr;
 	wire [ASIZE-1:0] waddr,raddr;
 
-	sync_r2w syn_r2w_dut(.wclk(wclk), .wrst_n(wrst_n), .rptr(rptr), .wq2_rptr(wq2_rptr) );
+	sync_r2w syn_r2w_dut(.wclk(i1.wclk), .wrst_n(i1.wrst_n), .rptr(rptr), .wq2_rptr(wq2_rptr) );
 
-	sync_w2r syn_w2r_dut(.rclk(rclk), .rrst_n(rrst_n), .wptr(wptr), .rq2_wptr(rq2_wptr) );
+	sync_w2r syn_w2r_dut(.rclk(i1.rclk), .rrst_n(i1.rrst_n), .wptr(wptr), .rq2_wptr(rq2_wptr) );
 
-	fifo_mem #(DSIZE, ASIZE) fifo_mem_dut ( .waddr(waddr), .raddr(raddr), .wdata(wdata), .wclken(winc), .wfull(wfull), .wclk(wclk) );
+	fifo_mem #(DSIZE, ASIZE) fifo_mem_dut ( .waddr(waddr), .raddr(raddr), .wdata(i1.wdata), .rdata(i1.rdata),.wclken(i1.winc), .wfull(i1.wfull), .wclk(i1.wclk) );
 
-	rptr_empty rptr_empty_dut ( .rclk(rclk), .rrst_n(rrst_n), .rinc(rinc), .rq2_wptr(rq2_wptr), .rptr(rptr), .rempty(rempty), .raddr(raddr) );
+	rptr_empty rptr_empty_dut ( .rclk(i1.rclk), .rrst_n(i1.rrst_n), .rinc(i1.rinc), .rq2_wptr(rq2_wptr), .rptr(rptr), .rempty(i1.rempty), .raddr(raddr) );
 
-	wptr_full wptr_full_dut (.wclk(wclk), .wrst_n(wrst_n), .winc(winc), .wq2_rptr(wq2_rptr), .wptr(wptr), .wfull(wfull), .waddr(waddr) );
+	wptr_full wptr_full_dut (.wclk(i1.wclk), .wrst_n(i1.wrst_n), .winc(i1.winc), .wq2_rptr(wq2_rptr), .wptr(wptr), .wfull(i1.wfull), .waddr(waddr) );
 
 endmodule

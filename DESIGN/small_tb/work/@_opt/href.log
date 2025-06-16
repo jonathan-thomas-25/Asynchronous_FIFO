@@ -1,0 +1,11 @@
+BEGIN 3:intf:fast__1:work
+    wfull :  1:asynchronous_fifo:fast:work 1:top:fast:work
+    wclk :  1:asynchronous_fifo:fast:work
+    wrst_n :  1:asynchronous_fifo:fast:work 1:top:fast:work
+    winc :  1:asynchronous_fifo:fast:work 1:top:fast:work
+    wdata :  1:asynchronous_fifo:fast:work 1:top:fast:work
+    rempty :  1:asynchronous_fifo:fast:work 1:top:fast:work
+    rclk :  1:asynchronous_fifo:fast:work
+    rrst_n :  1:asynchronous_fifo:fast:work 1:top:fast:work
+    rinc :  1:asynchronous_fifo:fast:work 1:top:fast:work
+END 

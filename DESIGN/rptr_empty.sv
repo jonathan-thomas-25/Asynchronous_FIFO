@@ -18,14 +18,17 @@ always @(posedge rclk or negedge rrst_n)begin
 	else {rbin, rptr}<={rbinnext,rgraynext};	
 end
 
+assign raddr=rbin[ADDRSIZE-1:0];
 assign rbinnext=rbin+(rinc & ~rempty);
 assign rgraynext=(rbinnext>>1) ^ rbinnext;
 
 assign rempty_val = (rgraynext == rq2_wptr);
 
-always @(posedge rclk or negedge rrst_n)
+always @(posedge rclk or negedge rrst_n)begin
 
 	if(!rrst_n) rempty<=1'b1;
 	else rempty <= rempty_val;
+
+end
 
 endmodule
