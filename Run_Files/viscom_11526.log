@@ -1,0 +1,5 @@
+** Error (suppressible): (vopt-13276) ../TB/coverage.sv(25:17): Could not find field/method name (wrrst_n) in 'w_pkt' of 'coverage::#test_write#::sample.w_pkt.wrrst_n'.
+** Error (suppressible): (vopt-13276) ../TB/coverage.sv(25:17): Could not find field/method name (wrrst_n) in 'w_pkt' of 'coverage::#test_write#::sample.w_pkt.wrrst_n'.
+** Error (suppressible): (vopt-13276) ../TB/coverage.sv(25:17): Could not find field/method name (wrrst_n) in 'w_pkt' of 'coverage::#test_write#::sample.w_pkt.wrrst_n'.
+** Error (suppressible): (vopt-13276) ../TB/coverage.sv(25:17): Could not find field/method name (wrrst_n) in 'w_pkt' of 'coverage::#test_write#::sample.w_pkt.wrrst_n'.
+Optimization failed

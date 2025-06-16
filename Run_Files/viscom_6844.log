@@ -1,0 +1,4 @@
+** Error (suppressible): (vopt-13276) ../TB/test.sv(22:2): Could not find field/method name (set_report_verbosity) in 'drv' of 'e1.a1.drv.set_report_verbosity'.
+** Error (suppressible): (vopt-13276) ../TB/test.sv(22:2): Could not find field/method name (set_report_verbosity) in 'drv' of 'e1.a1.drv.set_report_verbosity.$0'.
+** Error (suppressible): (vopt-13276) ../TB/test.sv(22:2): Could not find field/method name (set_report_verbosity) in 'drv' of 'e1.a1.drv.set_report_verbosity.$1'.
+Optimization failed

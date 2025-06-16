@@ -1,0 +1,132 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session version="3" skip_do_file="0">
+ <app argc="5">
+  <argv value="visualizer" pos="0"/>
+  <argv value="-designfile" pos="1"/>
+  <argv value="design.bin" pos="2"/>
+  <argv value="-wavefile" pos="3"/>
+  <argv value="qwave.db" pos="4"/>
+ </app>
+ <window_config>
+  <dockareas bottom="266" left="355" top="0" right="450"/>
+  <taborder bottom="transcript+" left="structure+" right="variables+"/>
+  <activetab bottom="transcript" left="structure" right="variables"/>
+  <window undocked="0" dock_location="left" type="structure" visible="1" y="0" x="0"/>
+  <window undocked="0" dock_location="right" type="variables" visible="1" y="0" x="0"/>
+  <window undocked="0" dock_location="bottom" type="transcript" visible="1" y="0" x="0"/>
+  <window width="3440" undocked="0" type="rtl" visible="1" y="23" x="0" height="1369"/>
+  <window undocked="0" dock_location="left" type="testbench" visible="0" y="0" x="0"/>
+  <window width="3440" undocked="1" dock_location="bottom" type="wave" visible="1" y="63" x="8" height="1369"/>
+  <window undocked="0" dock_location="center" type="source" visible="0" y="0" path="/u/jonthom/Personal_Projects/Asynchronus_FIFO/TB/top.sv" x="0" firstVisibleLine="0"/>
+  <window undocked="0" dock_location="center" type="source" visible="0" y="0" path="/u/jonthom/Personal_Projects/Asynchronus_FIFO/DESIGN/asynchronus_fifo.sv" id="1" x="0" firstVisibleLine="0"/>
+  <window undocked="0" dock_location="center" type="source" visible="0" y="0" path="/u/jonthom/Personal_Projects/Asynchronus_FIFO/TB/interface.sv" id="2" x="0" firstVisibleLine="0"/>
+  <window undocked="0" dock_location="center" type="source" visible="0" y="0" path="/u/jonthom/Personal_Projects/Asynchronus_FIFO/DESIGN/fifomem.sv" id="3" x="0" firstVisibleLine="0"/>
+  <window undocked="0" dock_location="center" type="source" visible="0" y="0" path="/u/jonthom/Personal_Projects/Asynchronus_FIFO/DESIGN/rptr_empty.sv" id="4" x="0" firstVisibleLine="0"/>
+  <window undocked="0" dock_location="center" type="source" visible="1" y="0" path="/u/jonthom/Personal_Projects/Asynchronus_FIFO/DESIGN/wptr_full.sv" id="5" x="0" firstVisibleLine="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile tagName="F0" fileName="/u/jonthom/Personal_Projects/Asynchronus_FIFO/Run_Files/qwave.db" waveType="0"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser filepath="/u/jonthom/Personal_Projects/Asynchronus_FIFO/TB/top.sv" instancename="top"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/u/jonthom/Personal_Projects/Asynchronus_FIFO/DESIGN/asynchronus_fifo.sv" instancename="top.fifo1"/>
+   <sourcetclcommands>
+    <tcl command="src activate source1"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/u/jonthom/Personal_Projects/Asynchronus_FIFO/TB/interface.sv" instancename="top.intf1"/>
+   <sourcetclcommands>
+    <tcl command="src activate source2"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/u/jonthom/Personal_Projects/Asynchronus_FIFO/DESIGN/fifomem.sv" instancename="top.fifo1.fifo_mem_dut"/>
+   <sourcetclcommands>
+    <tcl command="src activate source3"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/u/jonthom/Personal_Projects/Asynchronus_FIFO/DESIGN/rptr_empty.sv" instancename="top.fifo1.rptr_empty_dut"/>
+   <sourcetclcommands>
+    <tcl command="src activate source4"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/u/jonthom/Personal_Projects/Asynchronus_FIFO/DESIGN/wptr_full.sv" primary="true" instancename="top.fifo1.wptr_full_dut"/>
+   <sourcetclcommands>
+    <tcl command="src activate source5"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curRadix="8" curActiveWaveFile="F0" curDisplayTimeUnit="-9" customDisplayTimeUnitListStr="" curDisplayTimeUnitStr="1ns">
+   <curTime hightime="0" lowtime="95"/>
+  </watchTower_cur_setting>
+  <structure selection="top.fifo1.wptr_full_dut"/>
+  <variables CA="0" UPF="0" VA="0"/>
+  <transcript/>
+  <wave name="Wave0">
+   <timeunit value="11"/>
+   <frequnit value="2"/>
+   <showdiff value="0"/>
+  </wave>
+ </gui>
+ <wave_mgr sync_time_range="0">
+  <waveWindow displayTimeUnitStr="1ns" nameWidth="173" displayGlobalView="1" waveWidth="3139" displayTimeUnit="-9" alignBaseName="0" primNudge="1" justifySignalPath="Right" showMarkers="1" displayFileTag="1" swapRepresentationOfX="0" valueWidth="83" wintype="4" signalHeight="18" secNudge="1" showSecCursor="0" displayGrid="0" trackViewToTime="1" value_tooltip="0" displayLeadingZeros="0" displayScopeName="1" displayRadixWithValue="1" snapToEdge="1">
+   <window name="Wave0">
+    <timeunit value="11"/>
+    <frequnit value="2"/>
+    <showdiff value="0"/>
+   </window>
+   <viewPort>
+    <beginTime hightime="0" lowtime="0"/>
+    <endTime hightime="0" lowtime="125"/>
+    <beginViewTime hightime="0" lowtime="0"/>
+    <endViewTime hightime="0" lowtime="125"/>
+    <beginLastViewTime hightime="0" lowtime="0"/>
+    <endLastViewTime hightime="0" lowtime="125"/>
+   </viewPort>
+   <primCursor hightime="0" lowtime="95"/>
+   <wavetclcommands>
+    <tcl command="wave update off"/>
+    <tcl command="wave clearselection"/>
+    <tcl commandblock="custom radix definitions"></tcl>
+    <tcl command="wave update off"/>
+    <tcl command="wave zoom range 0 125"/>
+    <tcl command="wave group top.intf1 -backgroundcolor #004466"/>
+    <tcl command="wave add -group top.intf1 top.intf1.wclk -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.rclk -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.ASIZE -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.DSIZE -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.wrst_n -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.rrst_n -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.winc -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.rinc -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.wfull -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.rempty -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.wdata -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.intf1 top.intf1.rdata -tag F0 -radix hexadecimal"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave group top.fifo1 -backgroundcolor #006666"/>
+    <tcl command="wave add -group top.fifo1 top.fifo1.ASIZE -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.fifo1 top.fifo1.DSIZE -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.fifo1 top.fifo1.rptr -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.fifo1 top.fifo1.wq2_rptr -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.fifo1 top.fifo1.wptr -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.fifo1 top.fifo1.rq2_wptr -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top.fifo1 top.fifo1.waddr -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.fifo1 top.fifo1.raddr -tag F0 -radix hexadecimal"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave update on"/>
+    <tcl command="wave top 0"/>
+    <tcl command=""/>
+   </wavetclcommands>
+  </waveWindow>
+ </wave_mgr>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="top.fifo1.wptr_full_dut"/>
+</session>

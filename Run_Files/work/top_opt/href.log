@@ -1,0 +1,24 @@
+BEGIN 3:intf:fast__1:work
+    rempty :  1:fifo_package:fast:work
+    rinc :  1:fifo_package:fast:work
+    wrst_n :  1:fifo_package:fast:work
+    wclk :  1:fifo_package:fast:work
+    wdata :  1:fifo_package:fast:work
+    rdata :  1:fifo_package:fast:work
+    rrst_n :  1:fifo_package:fast:work
+    rclk :  1:fifo_package:fast:work
+    wfull :  1:fifo_package:fast:work
+    winc :  1:fifo_package:fast:work
+END 
+BEGIN 3:intf:fast__2:work
+    wclk :  1:asynchronous_fifo:fast:work
+    rclk :  1:asynchronous_fifo:fast:work
+    wdata :  1:asynchronous_fifo:fast:work
+    winc :  1:asynchronous_fifo:fast:work
+    rinc :  1:asynchronous_fifo:fast:work
+    rempty :  1:asynchronous_fifo:fast:work
+    wrst_n :  1:top:fast:work 1:asynchronous_fifo:fast:work
+    rrst_n :  1:top:fast:work 1:asynchronous_fifo:fast:work
+    rdata :  1:asynchronous_fifo:fast:work
+    wfull :  1:asynchronous_fifo:fast:work
+END 

@@ -1,0 +1,26 @@
+# VISUALIZERROOT = '/pkgs/mentor/questa/2024.2/questasim/linux_x86_64/VisualizerRls'
+# USER = 'jonthom'
+# Siemens software version 2024.2 (Build on May 20 2024)
+# Unpublished work. Copyright 2025 Siemens
+
+# visualizer -designfile design.bin -wavefile qwave.db
+# Restoring last session...
+
+# 14:44:08: Loading design data...
+# 14:44:09: Loaded  design units
+# 14:44:09: Loaded  design hierarchy
+# 14:44:09: Loading waveform header...
+# 14:44:09: Loaded  waveform header
+# No Drivers for 'top.fifo1.waddr'
+# No Drivers for 'top.fifo1.waddr'
+# No Drivers for 'top.fifo1.waddr'
+# No Drivers for 'top.fifo1.waddr'
+# No Drivers for 'top.fifo1.waddr'
+# No Drivers for 'top.fifo1.waddr'
+# No Drivers for 'top.fifo1.waddr'
+# Window layout 'Default' saved in file: /u/jonthom/.visualizer/layout.xml
+# Start  : Wed Jun  4 14:44:03 2025
+# End    : Wed Jun  4 14:52:25 2025
+# VMSize : 2303004 kB
+# VMPeak : 2385384 kB
+# MaxRSS : 240612 kB

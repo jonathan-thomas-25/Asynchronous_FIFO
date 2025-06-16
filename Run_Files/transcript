@@ -1,0 +1,151 @@
+# vsim -c top_opt -qwavedb=+signal+wavefile=qwave.db 
+# Start time: 07:49:45 on Jun 07,2025
+# Loading Siemens Visualizer shared object '/pkgs/mentor/questa/2024.2/questasim/linux_x86_64/VisualizerRls/bin/libqvisualizer.so'
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.intf(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.fifo_package(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top(fast)
+# Loading /pkgs/mentor/questa/2024.2/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# qwavedb_dumpvars: Initiating qwavedb waveform capturing
+# 
+#  wave file name = qwave.db
+# Info: Enabling parallel (multi-threaded) wave dumping.
+# 
+# qwavedb_dumpvars: Done initiating qwavedb waveform capturing
+# 
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# 
+#### Factory Configuration (*)
+# 
+#   No instance or type overrides are registered with this factory
+# 
+# All types registered with the factory: 51 total
+# (types without type names will not be printed)
+# 
+#   Type Name
+#   ---------
+#   agent
+#   base_sequence
+#   coverage
+#   driver
+#   environment
+#   monitor
+#   questa_uvm_recorder
+#   read_sequence
+#   scoreboard
+#   seq_item #(DSIZE)
+#   seq_item2#(DSIZE)
+#   sequencer
+#   test
+#   write_sequence
+# (*) Types with no associated type name will be printed as <unknown>
+# 
+####
+# 
+# UVM_INFO @ 0: uvm_test_top.e1.a1.drv [DRIVER BUILD FUNCTION] 
+# UVM_INFO @ 0: uvm_test_top.e1.a1.mon [MONITOR BUILD PHASE] 
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# uvm_test_top               test                    -     @471 
+#   e1                       environment             -     @478 
+#     a1                     agent                   -     @485 
+#       drv                  driver                  -     @515 
+#         rsp_port           uvm_analysis_port       -     @530 
+#         seq_item_port      uvm_seq_item_pull_port  -     @522 
+#       mon                  monitor                 -     @538 
+#         monitor_port       uvm_analysis_port       -     @670 
+#       scb                  scoreboard              -     @545 
+#         scb_port           uvm_analysis_imp        -     @552 
+#       seq                  sequencer               -     @560 
+#         rsp_export         uvm_analysis_export     -     @567 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @661 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+#     cov                    coverage                -     @507 
+#       coverage_port        uvm_analysis_imp        -     @684 
+#     scb                    scoreboard              -     @492 
+#       scb_port             uvm_analysis_imp        -     @499 
+# --------------------------------------------------------------
+# 
+# ** Warning: (vsim-2553) Queue operation would exceed max. right index of 7.
+# 
+#    Time: 46 ns  Iteration: 2  Process: /uvm_pkg::uvm_task_phase::execute/#FORK#137(#ublk#215181159#137)_7fefe872955 File: ../TB/scoreboard.sv Line: 32
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  135
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [##FIFO BASE SEQUENCE##]     1
+# [#DRIVER WRITE#]     7
+# [#DRIVER WRITE- RESET PACKET#]     1
+# [#FIFO READ SEQ#]     7
+# [#FIFO WRITE SEQ#]     7
+# [#SEQ#]    15
+# [****COVERAGE****]     1
+# [---------------------------------------]    30
+# [DRIVER BUILD FUNCTION]     1
+# [DRIVER RUN PHASE]     1
+# [FIFO READ SEQUENCE]     7
+# [FIFO WRITE SEQUENCE]     7
+# [MONITOR BUILD PHASE]     1
+# [MONITOR DETECTED READ]     8
+# [MONITOR DETECTED WRITE]    10
+# [MONITOR RUN PHASE]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# [[SCOREBOARD DEBUG]]    17
+# [scoreboard]     8
+# ** Note: $finish    : /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 125 ns  Iteration: 54  Instance: /top
+# End time: 07:49:49 on Jun 07,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# Disable bg thread...
+# qwavedb_dumpvars : Simulation ending at [0 125] 0

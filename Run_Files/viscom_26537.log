@@ -1,0 +1,3 @@
+** Error (suppressible): /pkgs/mentor/questa/2024.2/questasim/verilog_src/uvm-1.1d/src/base/uvm_registry.svh(199): (vopt-13266) No actual value has been specified for a formal argument 'name' that does not have a default value.
+** Error (suppressible): ../TB/seq_item.sv(31): (vopt-13266) No actual value has been specified for a formal argument 'name' that does not have a default value.
+Optimization failed

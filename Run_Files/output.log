@@ -1,0 +1,129 @@
+UVM_INFO @ 0: uvm_test_top.e1.a1.mon [MONITOR RUN PHASE] 
+UVM_INFO @ 0: uvm_test_top.e1.a1.drv [DRIVER RUN PHASE] 
+UVM_INFO @ 0: uvm_test_top.e1.a1.seq@@reset_seq [##FIFO BASE SEQUENCE##] INSIDE TASK BODY
+UVM_INFO @ 0: uvm_test_top.e1.a1.seq@@reset_seq [#SEQ#] Generated new item: winc=0, rinc=0, wdata=112, full=x, empty=x
+UVM_INFO @ 0: uvm_test_top.e1.a1.seq@@reset_seq [---------------------------------------] 
+UVM_INFO @ 0: uvm_test_top.e1.a1.seq@@reset_seq [---------------------------------------] 
+UVM_INFO @ 0: uvm_test_top.e1.a1.drv [#DRIVER WRITE- RESET PACKET#] BURST_DETAILS: time=                   0, winc=x, rinc=x, wdata=  x, full=0, empty=1
+UVM_INFO @ 10: uvm_test_top.e1.a1.seq@@write_seq [FIFO WRITE SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 10: uvm_test_top.e1.a1.seq@@write_seq [#FIFO WRITE SEQ#] Generated new item: winc=1, rinc=0, wdata=112, full=x, empty=x
+UVM_INFO @ 10: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 10: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 14: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  14, winc=1, wdata=112, full=0, empty=1
+UVM_INFO @ 14: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=112
+UVM_INFO @ 14: uvm_test_top.e1.a1.drv [#DRIVER WRITE#] BURST_DETAILS: time=                  14, winc=1, rinc=0, wdata=112, full=0, empty=1
+UVM_INFO @ 14: uvm_test_top.e1.a1.seq@@write_seq [#SEQ#] Done Generating new item           0
+UVM_INFO @ 14: uvm_test_top.e1.a1.seq@@write_seq [FIFO WRITE SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 14: uvm_test_top.e1.a1.seq@@write_seq [#FIFO WRITE SEQ#] Generated new item: winc=1, rinc=0, wdata=110, full=x, empty=x
+UVM_INFO @ 14: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 14: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 18: uvm_test_top.e1.a1.drv [#DRIVER WRITE#] BURST_DETAILS: time=                  18, winc=1, rinc=0, wdata=110, full=0, empty=1
+UVM_INFO @ 18: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  18, winc=1, wdata=110, full=0, empty=1
+UVM_INFO @ 18: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=112
+UVM_INFO @ 18: uvm_test_top.e1.a1.seq@@write_seq [#SEQ#] Done Generating new item           1
+UVM_INFO @ 18: uvm_test_top.e1.a1.seq@@write_seq [FIFO WRITE SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 18: uvm_test_top.e1.a1.seq@@write_seq [#FIFO WRITE SEQ#] Generated new item: winc=1, rinc=0, wdata=109, full=x, empty=x
+UVM_INFO @ 18: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 18: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 22: uvm_test_top.e1.a1.drv [#DRIVER WRITE#] BURST_DETAILS: time=                  22, winc=1, rinc=0, wdata=109, full=0, empty=1
+UVM_INFO @ 22: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  22, winc=1, wdata=109, full=0, empty=1
+UVM_INFO @ 22: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=110
+UVM_INFO @ 22: uvm_test_top.e1.a1.seq@@write_seq [#SEQ#] Done Generating new item           2
+UVM_INFO @ 22: uvm_test_top.e1.a1.seq@@write_seq [FIFO WRITE SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 22: uvm_test_top.e1.a1.seq@@write_seq [#FIFO WRITE SEQ#] Generated new item: winc=1, rinc=0, wdata=112, full=x, empty=x
+UVM_INFO @ 22: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 22: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 26: uvm_test_top.e1.a1.drv [#DRIVER WRITE#] BURST_DETAILS: time=                  26, winc=1, rinc=0, wdata=112, full=0, empty=1
+UVM_INFO @ 26: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  26, winc=1, wdata=112, full=0, empty=1
+UVM_INFO @ 26: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=109
+UVM_INFO @ 26: uvm_test_top.e1.a1.seq@@write_seq [#SEQ#] Done Generating new item           3
+UVM_INFO @ 26: uvm_test_top.e1.a1.seq@@write_seq [FIFO WRITE SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 26: uvm_test_top.e1.a1.seq@@write_seq [#FIFO WRITE SEQ#] Generated new item: winc=1, rinc=0, wdata=120, full=x, empty=x
+UVM_INFO @ 26: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 26: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 30: uvm_test_top.e1.a1.drv [#DRIVER WRITE#] BURST_DETAILS: time=                  30, winc=1, rinc=0, wdata=120, full=0, empty=1
+UVM_INFO @ 30: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  30, winc=1, wdata=120, full=0, empty=1
+UVM_INFO @ 30: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=112
+UVM_INFO @ 30: uvm_test_top.e1.a1.seq@@write_seq [#SEQ#] Done Generating new item           4
+UVM_INFO @ 30: uvm_test_top.e1.a1.seq@@write_seq [FIFO WRITE SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 30: uvm_test_top.e1.a1.seq@@write_seq [#FIFO WRITE SEQ#] Generated new item: winc=1, rinc=0, wdata=118, full=x, empty=x
+UVM_INFO @ 30: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 30: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 34: uvm_test_top.e1.a1.drv [#DRIVER WRITE#] BURST_DETAILS: time=                  34, winc=1, rinc=0, wdata=118, full=0, empty=1
+UVM_INFO @ 34: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  34, winc=1, wdata=118, full=0, empty=1
+UVM_INFO @ 34: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=120
+UVM_INFO @ 34: uvm_test_top.e1.a1.seq@@write_seq [#SEQ#] Done Generating new item           5
+UVM_INFO @ 34: uvm_test_top.e1.a1.seq@@write_seq [FIFO WRITE SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 34: uvm_test_top.e1.a1.seq@@write_seq [#FIFO WRITE SEQ#] Generated new item: winc=1, rinc=0, wdata=101, full=x, empty=x
+UVM_INFO @ 34: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 34: uvm_test_top.e1.a1.seq@@write_seq [---------------------------------------] 
+UVM_INFO @ 38: uvm_test_top.e1.a1.drv [#DRIVER WRITE#] BURST_DETAILS: time=                  38, winc=1, rinc=0, wdata=101, full=0, empty=0
+UVM_INFO @ 38: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  38, winc=1, wdata=101, full=0, empty=0
+UVM_INFO @ 38: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=118
+UVM_INFO @ 38: uvm_test_top.e1.a1.seq@@write_seq [#SEQ#] Done Generating new item           6
+UVM_INFO @ 42: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  42, winc=1, wdata=101, full=0, empty=0
+UVM_INFO @ 42: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=101
+UVM_INFO @ 46: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  46, winc=1, wdata=101, full=0, empty=0
+UVM_INFO @ 46: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=1, pkt.wdata=101
+UVM_INFO @ 48: uvm_test_top.e1.a1.seq@@read_seq [FIFO READ SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 48: uvm_test_top.e1.a1.seq@@read_seq [#FIFO READ SEQ#] Generated new item: winc=0, rinc=1, wdata=106, full=x, empty=x
+UVM_INFO @ 48: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 48: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 50: uvm_test_top.e1.a1.mon [MONITOR DETECTED WRITE] Burst Details: time=                  50, winc=0, wdata=106, full=0, empty=0
+UVM_INFO @ 55: uvm_test_top.e1.a1.mon [MONITOR DETECTED READ] Burst Details: time=                  55, winc=0, rinc=1, wdata=106, full=0, empty=0
+UVM_INFO @ 55: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=0, pkt.wdata=101
+UVM_INFO @ 55: uvm_test_top.e1.scb [scoreboard] [SCOREBOARD] MATCH SUCCESSFULL - wdata=112, rdata=112
+UVM_INFO @ 55: uvm_test_top.e1.a1.seq@@read_seq [#SEQ#] Done Generating new item           0
+UVM_INFO @ 55: uvm_test_top.e1.a1.seq@@read_seq [FIFO READ SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 55: uvm_test_top.e1.a1.seq@@read_seq [#FIFO READ SEQ#] Generated new item: winc=0, rinc=1, wdata=100, full=x, empty=x
+UVM_INFO @ 55: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 55: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 65: uvm_test_top.e1.a1.mon [MONITOR DETECTED READ] Burst Details: time=                  65, winc=0, rinc=1, wdata=100, full=0, empty=0
+UVM_INFO @ 65: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=0, pkt.wdata=  x
+UVM_INFO @ 65: uvm_test_top.e1.a1.seq@@read_seq [#SEQ#] Done Generating new item           1
+UVM_INFO @ 65: uvm_test_top.e1.a1.seq@@read_seq [FIFO READ SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 65: uvm_test_top.e1.scb [scoreboard] [SCOREBOARD] MATCH SUCCESSFULL - wdata=112, rdata=112
+UVM_INFO @ 65: uvm_test_top.e1.a1.seq@@read_seq [#FIFO READ SEQ#] Generated new item: winc=0, rinc=1, wdata=111, full=x, empty=x
+UVM_INFO @ 65: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 65: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 75: uvm_test_top.e1.a1.mon [MONITOR DETECTED READ] Burst Details: time=                  75, winc=0, rinc=1, wdata=111, full=0, empty=0
+UVM_INFO @ 75: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=0, pkt.wdata=  x
+UVM_INFO @ 75: uvm_test_top.e1.a1.seq@@read_seq [#SEQ#] Done Generating new item           2
+UVM_INFO @ 75: uvm_test_top.e1.a1.seq@@read_seq [FIFO READ SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 75: uvm_test_top.e1.scb [scoreboard] [SCOREBOARD] MATCH SUCCESSFULL - wdata=110, rdata=110
+UVM_INFO @ 75: uvm_test_top.e1.a1.seq@@read_seq [#FIFO READ SEQ#] Generated new item: winc=0, rinc=1, wdata=107, full=x, empty=x
+UVM_INFO @ 75: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 75: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 85: uvm_test_top.e1.a1.mon [MONITOR DETECTED READ] Burst Details: time=                  85, winc=0, rinc=1, wdata=107, full=0, empty=0
+UVM_INFO @ 85: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=0, pkt.wdata=  x
+UVM_INFO @ 85: uvm_test_top.e1.a1.seq@@read_seq [#SEQ#] Done Generating new item           3
+UVM_INFO @ 85: uvm_test_top.e1.a1.seq@@read_seq [FIFO READ SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 85: uvm_test_top.e1.scb [scoreboard] [SCOREBOARD] MATCH SUCCESSFULL - wdata=109, rdata=109
+UVM_INFO @ 85: uvm_test_top.e1.a1.seq@@read_seq [#FIFO READ SEQ#] Generated new item: winc=0, rinc=1, wdata=114, full=x, empty=x
+UVM_INFO @ 85: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 85: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 95: uvm_test_top.e1.a1.mon [MONITOR DETECTED READ] Burst Details: time=                  95, winc=0, rinc=1, wdata=114, full=0, empty=0
+UVM_INFO @ 95: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=0, pkt.wdata=  x
+UVM_INFO @ 95: uvm_test_top.e1.a1.seq@@read_seq [#SEQ#] Done Generating new item           4
+UVM_INFO @ 95: uvm_test_top.e1.a1.seq@@read_seq [FIFO READ SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 95: uvm_test_top.e1.scb [scoreboard] [SCOREBOARD] MATCH SUCCESSFULL - wdata=112, rdata=112
+UVM_INFO @ 95: uvm_test_top.e1.a1.seq@@read_seq [#FIFO READ SEQ#] Generated new item: winc=0, rinc=1, wdata=105, full=x, empty=x
+UVM_INFO @ 95: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 95: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 105: uvm_test_top.e1.a1.mon [MONITOR DETECTED READ] Burst Details: time=                 105, winc=0, rinc=1, wdata=105, full=0, empty=0
+UVM_INFO @ 105: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=0, pkt.wdata=  x
+UVM_INFO @ 105: uvm_test_top.e1.a1.seq@@read_seq [#SEQ#] Done Generating new item           5
+UVM_INFO @ 105: uvm_test_top.e1.a1.seq@@read_seq [FIFO READ SEQUENCE] INSIDE TASK BODY
+UVM_INFO @ 105: uvm_test_top.e1.scb [scoreboard] [SCOREBOARD] MATCH SUCCESSFULL - wdata=120, rdata=120
+UVM_INFO @ 105: uvm_test_top.e1.a1.seq@@read_seq [#FIFO READ SEQ#] Generated new item: winc=0, rinc=1, wdata=110, full=x, empty=x
+UVM_INFO @ 105: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 105: uvm_test_top.e1.a1.seq@@read_seq [---------------------------------------] 
+UVM_INFO @ 115: uvm_test_top.e1.a1.mon [MONITOR DETECTED READ] Burst Details: time=                 115, winc=0, rinc=1, wdata=110, full=0, empty=0
+UVM_INFO @ 115: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=0, pkt.wdata=  x
+UVM_INFO @ 115: uvm_test_top.e1.a1.seq@@read_seq [#SEQ#] Done Generating new item           6
+UVM_INFO @ 115: uvm_test_top.e1.scb [scoreboard] [SCOREBOARD] MATCH SUCCESSFULL - wdata=118, rdata=118
+UVM_INFO @ 125: uvm_test_top.e1.a1.mon [MONITOR DETECTED READ] Burst Details: time=                 125, winc=0, rinc=1, wdata=110, full=0, empty=0
+UVM_INFO @ 125: uvm_test_top.e1.scb [[SCOREBOARD DEBUG]] pkt.winc=0, pkt.wdata=  x
+UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 125: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO @ 125: uvm_test_top.e1.scb [scoreboard] [SCOREBOARD] MATCH SUCCESSFULL - wdata=101, rdata=101
+UVM_INFO @ 125: uvm_test_top.e1.cov [****COVERAGE****] COVERAGE: 56.944444

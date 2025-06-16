@@ -1,0 +1,18 @@
+CPU Arch: x86_64
+Product Name: CentOS Linux 7 (Core)
+Kernel Type: linux
+Kernel Version: 3.10.0-1160.119.1.el7.x86_64
+Host Name: auto.ece.pdx.edu
+CPU Info: model name	: Intel Xeon Processor (Cascadelake)
+
+GPU Info: N/A
+GPU RAM: N/A
+Starting RAM Info: 
+              total        used        free      shared  buff/cache   available
+Mem:           119G         45G         45G        1.1G         28G         72G
+Swap:            0B          0B          0B
+
+Ending RAM Info: 
+              total        used        free      shared  buff/cache   available
+Mem:           119G         45G         45G        1.1G         28G         72G
+Swap:            0B          0B          0B
